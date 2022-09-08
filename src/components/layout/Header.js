@@ -88,16 +88,16 @@ const Header = ({
           <Logo />
           {!hideNav &&
             <>
-              <button
+              {/* <button
                 ref={hamburger}
                 className="header-nav-toggle"
                 onClick={isActive ? closeMenu : openMenu}
               >
-                <span className="screen-reader">Menu</span>
+                <span className="screen-reader">  </span>
                 <span className="hamburger">
                   <span className="hamburger-inner"></span>
                 </span>
-              </button>
+              </button> */}
               <nav
                 ref={nav}
                 className={
@@ -112,16 +112,14 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#0" onClick={closeMenu}>Whatsapp</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
+                      
                     </ul>}
                 </div>
               </nav>
