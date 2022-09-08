@@ -85,7 +85,10 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+            
+            
+            <Logo />
+             
           {!hideNav &&
             <>
               {/* <button

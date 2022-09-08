@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
+
+import { Link } from 'react-router-dom';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
@@ -58,8 +60,19 @@ const FeaturesTiles = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
+          
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
+              <Link
+                  target="_blank"
+                  to='#'
+                  onClick={(e) => {
+                    window.location.href = "https://goo.gl/maps/XL6o1uFR57LTtaBv8";
+                    e.preventDefault();
+                  }}
+                  >
+                  {
+                    <>
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16"style={{backgroundColor: '#D9D8D6'}}>
                     <Image
@@ -77,11 +90,26 @@ const FeaturesTiles = ({
                   Ubícanos  sobre la calle A 22-55 zona 3  Quetzaltenango
                     </p>
                 </div>
+                </>
+              }
+</Link>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+
+                 
+                    <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
+              <Link
+                  target="_blank"
+                  to='#'
+                  onClick={(e) => {
+                    window.location.href = "https://www.facebook.com/labohumani";
+                    e.preventDefault();
+                  }}
+                  >
+                  {
+                    <>
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16"style={{backgroundColor: '#D9D8D6'}}>
                     <Image
@@ -95,15 +123,28 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">
                    Facebook
                     </h4>
-                  <p className="m-0 text-sm">
-                  Laboratorios Humani
+                    <p className="m-0 text-sm">
+                  Laboratorio Humani
+                  
                     </p>
                 </div>
+                </>
+              }
+</Link>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
+              <Link
+            to='#'
+            onClick={(e) => {
+                window.location.href = "mailto:info@humanigt.com";
+                e.preventDefault();
+            }}
+        >
+            {
+              <>
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16"style={{backgroundColor: '#D9D8D6'}}>
                     <Image
@@ -118,14 +159,27 @@ const FeaturesTiles = ({
                     Correo Electronico
                     </h4>
                   <p className="m-0 text-sm">
-                  info@humanigt.com
+               info@humanigt.com 
                     </p>
                 </div>
+          </>    }
+        </Link>
+                 
               </div>
             </div>
-
+            
             <div className="tiles-item reveal-from-bottom">
               <div  className="tiles-item-inner">
+              <Link
+                  target="_blank"
+                  to='#'
+                  onClick={(e) => {
+                    window.location.href = "https://api.whatsapp.com/send?phone=50236193495";
+                    e.preventDefault();
+                  }}
+                  >
+                  {
+                    <>
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16"style={{backgroundColor: '#D9D8D6'}}>
                     <Image
@@ -143,11 +197,25 @@ const FeaturesTiles = ({
                     3619 3495
                     </p>
                 </div>
+                </>
+              }
+</Link>
               </div>
             </div>
 
+
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
+              <Link
+                  target="_blank"
+                  to='#'
+                  onClick={(e) => {
+                    window.location.href = "https://www.instagram.com/laboratorioshumani/";
+                    e.preventDefault();
+                  }}
+                  >
+                  {
+                  <>
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16"style={{backgroundColor: '#D9D8D6'}}>
                     <Image
@@ -165,9 +233,13 @@ const FeaturesTiles = ({
                     laboratorioshumani
                      </p>
                 </div>
+                </>
+              }
+</Link>
               </div>
             </div>
 
+ 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -189,7 +261,7 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
-
+        
           </div>
         </div>
       </div>

@@ -23,8 +23,7 @@ const Logo = ({
           <Image
             src={require('./../../../assets/images/logo.png')}
             alt="Open"
-            width={120}
-            height={120} />
+            width={75} />
         </Link>
       </h1>
     </div>
