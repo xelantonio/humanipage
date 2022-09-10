@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd138c9189e70cb6b9deb5949c52333c",
+    "revision": "a7ea0dc9f8d7a73d21fc9b0d666b20ec",
     "url": "/humanipage/index.html"
   },
   {
-    "revision": "51531f2a9d5fc0c7963c",
+    "revision": "a88db84f04a1e4cd6b4f",
     "url": "/humanipage/static/css/main.be368e91.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/humanipage/static/js/2.d2eea5d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51531f2a9d5fc0c7963c",
-    "url": "/humanipage/static/js/main.974f6e43.chunk.js"
+    "revision": "a88db84f04a1e4cd6b4f",
+    "url": "/humanipage/static/js/main.e60968d0.chunk.js"
   },
   {
     "revision": "6f76497d3765051f6ce4",

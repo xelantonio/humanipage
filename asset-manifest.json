@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/humanipage/static/css/main.be368e91.chunk.css",
-    "main.js": "/humanipage/static/js/main.974f6e43.chunk.js",
-    "main.js.map": "/humanipage/static/js/main.974f6e43.chunk.js.map",
+    "main.js": "/humanipage/static/js/main.e60968d0.chunk.js",
+    "main.js.map": "/humanipage/static/js/main.e60968d0.chunk.js.map",
     "runtime-main.js": "/humanipage/static/js/runtime-main.b07df70d.js",
     "runtime-main.js.map": "/humanipage/static/js/runtime-main.b07df70d.js.map",
     "static/js/2.d2eea5d3.chunk.js": "/humanipage/static/js/2.d2eea5d3.chunk.js",
     "static/js/2.d2eea5d3.chunk.js.map": "/humanipage/static/js/2.d2eea5d3.chunk.js.map",
     "index.html": "/humanipage/index.html",
-    "precache-manifest.f52416bf516fcee540973f7dc8523522.js": "/humanipage/precache-manifest.f52416bf516fcee540973f7dc8523522.js",
+    "precache-manifest.b7a03029207b10177dc4fe4494c8420a.js": "/humanipage/precache-manifest.b7a03029207b10177dc4fe4494c8420a.js",
     "service-worker.js": "/humanipage/service-worker.js",
     "static/css/main.be368e91.chunk.css.map": "/humanipage/static/css/main.be368e91.chunk.css.map",
     "static/js/2.d2eea5d3.chunk.js.LICENSE.txt": "/humanipage/static/js/2.d2eea5d3.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.b07df70d.js",
     "static/js/2.d2eea5d3.chunk.js",
     "static/css/main.be368e91.chunk.css",
-    "static/js/main.974f6e43.chunk.js"
+    "static/js/main.e60968d0.chunk.js"
   ]
 }

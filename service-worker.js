@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/humanipage/precache-manifest.f52416bf516fcee540973f7dc8523522.js"
+  "/humanipage/precache-manifest.b7a03029207b10177dc4fe4494c8420a.js"
 );
 
 self.addEventListener('message', (event) => {
