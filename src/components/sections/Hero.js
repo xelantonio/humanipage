@@ -73,7 +73,7 @@ const Hero = ({
                    Whatsapp
                     </Button>
                   <Button tag="a" style={{backgroundColor: '#F2CD00'}} wideMobile href= "https://treinta.shop/cintyasnchez">
-                    Catalogo de Precios
+                    Catalogo de Precios de referencia
                     </Button>
                 </ButtonGroup>
               </div>
