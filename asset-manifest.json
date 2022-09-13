@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/humanipage/static/css/main.be368e91.chunk.css",
-    "main.js": "/humanipage/static/js/main.e60968d0.chunk.js",
-    "main.js.map": "/humanipage/static/js/main.e60968d0.chunk.js.map",
+    "main.css": "/humanipage/static/css/main.b2912f74.chunk.css",
+    "main.js": "/humanipage/static/js/main.adb4c81c.chunk.js",
+    "main.js.map": "/humanipage/static/js/main.adb4c81c.chunk.js.map",
     "runtime-main.js": "/humanipage/static/js/runtime-main.b07df70d.js",
     "runtime-main.js.map": "/humanipage/static/js/runtime-main.b07df70d.js.map",
     "static/js/2.d2eea5d3.chunk.js": "/humanipage/static/js/2.d2eea5d3.chunk.js",
     "static/js/2.d2eea5d3.chunk.js.map": "/humanipage/static/js/2.d2eea5d3.chunk.js.map",
     "index.html": "/humanipage/index.html",
-    "precache-manifest.b7a03029207b10177dc4fe4494c8420a.js": "/humanipage/precache-manifest.b7a03029207b10177dc4fe4494c8420a.js",
+    "precache-manifest.8541f784941951f54c4c32c361125055.js": "/humanipage/precache-manifest.8541f784941951f54c4c32c361125055.js",
     "service-worker.js": "/humanipage/service-worker.js",
-    "static/css/main.be368e91.chunk.css.map": "/humanipage/static/css/main.be368e91.chunk.css.map",
+    "static/css/main.b2912f74.chunk.css.map": "/humanipage/static/css/main.b2912f74.chunk.css.map",
     "static/js/2.d2eea5d3.chunk.js.LICENSE.txt": "/humanipage/static/js/2.d2eea5d3.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/humanipage/static/media/illustration-section-02.63d0555d.svg",
     "static/media/facebook.png": "/humanipage/static/media/facebook.e4afd844.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.b07df70d.js",
     "static/js/2.d2eea5d3.chunk.js",
-    "static/css/main.be368e91.chunk.css",
-    "static/js/main.e60968d0.chunk.js"
+    "static/css/main.b2912f74.chunk.css",
+    "static/js/main.adb4c81c.chunk.js"
   ]
 }
