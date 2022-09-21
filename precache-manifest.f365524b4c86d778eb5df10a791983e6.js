@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b30972d0c871c9f58531496b14acb2c",
+    "revision": "dc5954fa4869dd4453907e4798810ac6",
     "url": "/index.html"
   },
   {
-    "revision": "3ff4bd2d60edeb81e839",
+    "revision": "db374aa5eb7c19274350",
     "url": "/static/css/main.3ca2d354.chunk.css"
   },
   {
@@ -16,12 +16,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d2eea5d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ff4bd2d60edeb81e839",
-    "url": "/static/js/main.fbef130d.chunk.js"
+    "revision": "db374aa5eb7c19274350",
+    "url": "/static/js/main.0aa6054d.chunk.js"
   },
   {
     "revision": "c307e69827cf23a9bfac",
     "url": "/static/js/runtime-main.b8b9f84b.js"
+  },
+  {
+    "revision": "7f0156172642a6a2ae364744b8702fec",
+    "url": "/static/media/CC.7f015617.png"
+  },
+  {
+    "revision": "a9a73606858ebaa13e2f30724e996486",
+    "url": "/static/media/HEMOGLOBINA.a9a73606.png"
+  },
+  {
+    "revision": "50a9f6511bbab438dcbffce27c040997",
+    "url": "/static/media/PRUEBA.50a9f651.png"
+  },
+  {
+    "revision": "5e1d3fffa6011105d62cd7f354238848",
+    "url": "/static/media/cintya.5e1d3fff.jpg"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
@@ -30,22 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4afd8441b52bb9d884afb35958477b9",
     "url": "/static/media/facebook.e4afd844.png"
-  },
-  {
-    "revision": "d9cb99ceb6a66250792ed78f5765325b",
-    "url": "/static/media/features-split-image-01.d9cb99ce.png"
-  },
-  {
-    "revision": "3c569239f88160018f79029ba5dc227d",
-    "url": "/static/media/features-split-image-02.3c569239.png"
-  },
-  {
-    "revision": "87e4d053756c60c9f421195d8eafdbfe",
-    "url": "/static/media/features-split-image-03.87e4d053.png"
-  },
-  {
-    "revision": "653c7c4b8b881c3bc818a2d57ed48f1c",
-    "url": "/static/media/femele.653c7c4b.jpg"
   },
   {
     "revision": "ea6949039d6554ebf2cf109f333f5811",
