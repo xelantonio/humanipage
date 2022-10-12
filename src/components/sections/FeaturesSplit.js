@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: '¡Conócenos un poco más!',
+    paragraph: 'En laboratorios Humani estamos comprometidos con nuestros pacientes por lo que nos interesa que nos conozcas y darte algunos tips.'
   };
 
   return (
@@ -67,14 +67,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                 
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Profesional a cargo
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                Química Bióloga egresada de la Universidad de San Carlos, con maestría en Administración Industrial y Empresas de Servicios, experiencia en el aseguramiento de la calidad de laboratorios clínicos, supervisión y mejora de procesos en laboratorio clínico, experiencia en seguridad social y jornadas institucionales.
+                   </p>
               </div>
               <div className={
                 classNames(
@@ -83,8 +83,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
+                  src={require('./../../assets/images/cintya.jpg')}
+                  alt="Quimico Biologo"
                   width={528}
                   height={396} />
               </div>
@@ -93,13 +93,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                ¿Sabes que es la prueba de Hemoglobina Glicosilada?
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                La prueba de hemoglobina glicosilada es una prueba para monitorear el promedio de la glucosa en sangre durante los últimos tres meses es útil para el control de la diabetes y de la prediabetes.
                   </p>
               </div>
               <div className={
@@ -109,8 +110,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
+                  src={require('./../../assets/images/HEMOGLOBINA.png')}
+                  alt="hemoglobina glicocilada"
                   width={528}
                   height={396} />
               </div>
@@ -119,14 +120,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                ¿Conocias que existian dos tipos de pruebas de embarazo en sangre?
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  
+                Actualmente existen dos tipos de pruebas de embarazo en sangre una es la común que todos conocemos y que se realiza durante las cuatro semanas posteriores a la última regla sin embargo hay una prueba más específica que es la prueba de HCG cuantificada y que mide con exactitud la cantidad de hormona que hay, es útil para detectar embarazos tempranos, embarazos molares o abortos.
+                   </p>
               </div>
               <div className={
                 classNames(
@@ -134,11 +136,13 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
+                  <a>
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
+                  src={require('./../../assets/images/PRUEBA.png')}
+                  alt="prueba de embarazo"
                   width={528}
                   height={396} />
+                  </a>
               </div>
             </div>
 

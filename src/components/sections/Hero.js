@@ -72,9 +72,9 @@ const Hero = ({
                   <Button tag="a" style={{backgroundColor: '#0097CE'}} wideMobile href="https://api.whatsapp.com/send?phone=50236193495">
                    Whatsapp
                     </Button>
-                  <Button tag="a" style={{backgroundColor: '#F2CD00'}} wideMobile href= "https://treinta.shop/cintyasnchez">
+                  {/* <Button tag="a" style={{backgroundColor: '#F2CD00'}} wideMobile href= "https://treinta.shop/cintyasnchez">
                     Catalogo de Precios de referencia
-                    </Button>
+                    </Button> */}
                 </ButtonGroup>
               </div>
             </div>
@@ -85,8 +85,8 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/femele.jpg')}
-                alt="Hero"
+                src={require('./../../assets/images/CC.png')}
+                alt="imagen de laboratorio clinico"
                 width={896}
                 height={504} />
             </a>

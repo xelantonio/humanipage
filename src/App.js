@@ -10,8 +10,9 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 
+//ReactGA.initialize('UA-000000-01');
 // Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+ReactGA.initialize('UA-242581882-1');
 
 const trackPage = page => {
   ReactGA.set({ page });
@@ -36,7 +37,9 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+        
+          <AppRoute  path=  '*' component={Home} layout={LayoutDefault} />
+         
         </Switch>
       )} />
   );
